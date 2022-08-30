@@ -1,0 +1,225 @@
+/*
+Autor: João Pedro Wolschick
+Data de criação: 27/05/21
+Data de última alteração: 27/05/21
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navmenu{
+    float: left;
+    margin-left: 15px;
+    width: auto;
+}
+
+.navmenuborder{
+    border-bottom-right-radius: 15px;
+    width: 380px;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.navmenuborder a{
+    color:rgba(255, 255, 255, 1);
+    padding: 15px;
+}
+
+.destaque{
+    float: right;
+}
+
+.destaqueimg{
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
+
+.destaquesection{
+    width: 35%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 125px;
+}
+
+.barralateral{
+    min-height: 2800px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    min-width: 100px;
+    width: 10%;
+    height: 100%;
+    line-height: 20px;
+}
+
+/* classes das listas */
+.lista{
+    height: 90%;
+    width: 52%;
+    float: left;
+    margin-left: 10px;
+    min-height: 2530px;
+}
+
+/* EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS
+EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS EU ODEIO CSS */
+/* para resoluções entre 1366x768 e 1920x1080*/
+@media screen and (min-width: 1310px) {
+    .lista{
+        min-height: 1950px;
+    }
+
+    .barralateral{
+        min-height: 2100px;
+    }
+    
+}
+/* para resoluções 1920x1080 */
+@media screen and (min-width: 1750px) {
+    .lista{
+        min-height: 90%;
+    }
+
+    .destaquesection{
+        margin-left: 10px;
+        margin-top: 33px;
+    }
+
+    .barralateral{
+        min-height: 1500px;
+    }
+    
+}
+
+.lista h2, hr{
+    margin-left: 5px;
+}
+
+.listaimg{
+    width: 100px;
+    height: 100px;
+    padding: 0px 6px;
+}
+
+.divlista{
+    padding: 5px 0px;
+    text-align: center;
+    float: left;
+    min-width: 500px;
+    margin-bottom: 10px;
+}
+
+.divitem{
+    float: left;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.divitem:hover img, .destaqueimg:hover{
+    transition: all 0.1s ease-in-out;
+    opacity: 0.8;
+}
+
+.divtitulo{
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), black);
+    color: white;
+    left: 6px;
+    width: 54%; /*54*/
+    font-size: 10px;
+    line-height: 12px;
+    padding: 10px 20px 5px 20px;
+}
+
+
+
+
+
+header{
+    border-bottom: 5px solid firebrick;
+    padding: 15px;
+    background-color:crimson;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    border: 1px solid firebrick;
+    width: 89.3%;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto Light';
+    color:firebrick;
+    font-variant: small-caps;
+
+}
+
+h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+h3{
+    color: crimson;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    background-color: blanchedalmond;
+    line-height: 20px;
+    margin: 0 0 100px;
+}
+
+a{
+    text-decoration: none;
+    color:firebrick;
+}
+
+a:hover{
+    color:maroon;
+}
+
+article{
+    border: 2px solid peru;
+    border-radius: 15px;
+    background-color: burlywood;
+    min-width: 500px;
+    width: 70%;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 25px;
+    resize: none;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    padding-top: 15px;
+    font-size: 11px;
+    border-top: 3px solid firebrick;
+    background-color: maroon;
+    color: rgba(255, 255, 255, 1);
+    line-height: 15px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    overflow:hidden;
+}
