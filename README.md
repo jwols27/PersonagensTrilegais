@@ -17,5 +17,3 @@ podem ser simples referências, memes ou compilações.
 
 É isso, aproveite o site, porque foi um grande sofrimento
 fazer essa porcaria funcionar corretamente. :]
-
--- João Pedro Wolschick
