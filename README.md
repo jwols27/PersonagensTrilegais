@@ -1,5 +1,5 @@
 
-# AVISO: Essas informações já são antigas e sinceramente eu peguei personagens aleatórios às vezes pra encher os quadros.
+# AVISO: Essas informações já são antigas e sinceramente eu peguei personagens aleatórios as vezes pra encher os quadros.
 
 Esse website foi feito com resolução 1920x1080 em mente,
 porém ele ainda funciona em escalas menores.
